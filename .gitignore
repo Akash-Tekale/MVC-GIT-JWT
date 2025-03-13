@@ -1,0 +1,55 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log
+yarn-debug.log
+pnpm-debug.log
+lerna-debug.log
+.husky/_
+
+# Build files
+dist/
+build/
+.cache/
+.vite/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+
+# MongoDB database dumps
+dump/
+
+# Dependencies for front-end (React)
+client/node_modules/
+client/build/
+client/.parcel-cache/
+
+# Dependencies for back-end (Node.js & Express)
+server/node_modules/
+server/dist/
+server/.cache/
+
+# Misc
+coverage/
+*.pid
+*.seed
+*.pid.lock
