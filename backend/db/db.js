@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 export const DB = () =>{
     try {
-        mongoose.connect('mongodb://localhost:27017/User');
+        mongoose.connect('mongodb+srv://akash:akash@cluster0.wkcwr.mongodb.net/users');
         console.log("Mongodb connected ");
     } catch (error) {   
         console.log("Mongo ERROR ! ! ! "+error);
