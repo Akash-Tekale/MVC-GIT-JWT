@@ -6,9 +6,9 @@ import { DeleteUser } from '../controllers/DeleteUser.js';
 
 const router = express.Router();
 
-router.get("/",GetUsers);
-router.post("/create",CreateUser);
-router.put("/update/:id",UpdateUser);
-router.delete("/delete/:id",DeleteUser);
+router.get("/users",GetUsers);
+router.post("/register",CreateUser);
+router.put("/users/:id",UpdateUser);
+router.delete("/users/:id",DeleteUser);
 
 export default router;
